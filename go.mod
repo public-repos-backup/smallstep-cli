@@ -1,6 +1,7 @@
 module github.com/smallstep/cli
 
 go 1.21
+toolchain go1.22.5
 
 require (
 	github.com/Microsoft/go-winio v0.6.2
@@ -14,7 +15,7 @@ require (
 	github.com/manifoldco/promptui v0.9.0
 	github.com/pkg/errors v0.9.1
 	github.com/pquerna/otp v1.4.0
-	github.com/slackhq/nebula v1.8.2
+	github.com/slackhq/nebula v1.9.4
 	github.com/smallstep/assert v0.0.0-20200723003110-82e2b9b3b262
 	github.com/smallstep/certificates v0.27.1
 	github.com/smallstep/certinfo v1.12.2
@@ -28,9 +29,9 @@ require (
 	go.step.sm/cli-utils v0.9.0
 	go.step.sm/crypto v0.50.0
 	go.step.sm/linkedca v0.22.1
-	golang.org/x/crypto v0.25.0
-	golang.org/x/sys v0.22.0
-	golang.org/x/term v0.22.0
+	golang.org/x/crypto v0.26.0
+	golang.org/x/sys v0.24.0
+	golang.org/x/term v0.23.0
 	google.golang.org/protobuf v1.34.2
 	software.sslmate.com/src/go-pkcs12 v0.4.0
 )
@@ -132,10 +133,10 @@ require (
 	go.opentelemetry.io/otel/metric v1.24.0 // indirect
 	go.opentelemetry.io/otel/trace v1.24.0 // indirect
 	golang.org/x/exp v0.0.0-20240318143956-a85f2c67cd81 // indirect
-	golang.org/x/net v0.27.0 // indirect
+	golang.org/x/net v0.28.0 // indirect
 	golang.org/x/oauth2 v0.21.0 // indirect
-	golang.org/x/sync v0.7.0 // indirect
-	golang.org/x/text v0.16.0 // indirect
+	golang.org/x/sync v0.8.0 // indirect
+	golang.org/x/text v0.17.0 // indirect
 	golang.org/x/time v0.5.0 // indirect
 	google.golang.org/api v0.187.0 // indirect
 	google.golang.org/genproto v0.0.0-20240624140628-dc46fd24d27d // indirect
